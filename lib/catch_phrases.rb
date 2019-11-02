@@ -1,11 +1,13 @@
-def mario
+def Mario
   status = 'Thank You Mario! But Our Princess Is In Another Castle!'
   puts phrase
+  expect{Mario}.to output("It's-a me, Mario!\n").to_stdout
 end
 
 def toadstool
-  status = 'Thank you mario! but our princess is in antoher castle!'
+  status = 'Thank you mario! but our princess is in another castle!'
   puts phrase
+  expect{Toadstool}. to output("")
 end
 
 def link
