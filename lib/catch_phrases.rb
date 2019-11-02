@@ -8,7 +8,7 @@ def toadstool
   puts phrase
 end
 
-def jigglypuff
+def link
   status = 'jigglypuff!'
   puts phrase
 end
