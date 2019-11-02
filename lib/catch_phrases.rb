@@ -4,5 +4,10 @@ def mario
 end
 
 def toadstool
+  status = 'Im toad!'
   puts status
 end
+
+def jigglypuff
+  status = 'Im jigglypuff..jigggglypuff!'
+  puts phrase
