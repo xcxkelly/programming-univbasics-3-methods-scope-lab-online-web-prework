@@ -4,16 +4,13 @@ def mario
 end
 
 def toadstool
-  status = 'Im toad!'
+  status = 'Thank you mario! but our princess is in antoher castle!'
   puts phrase
 end
 
 def link
-  status = 'jigglypuff!'
+  status = 'Its dangerous to go alone! take this.'
   puts phrase
 end
 
-def imatree 
-  status = 'Hello my name is Ima tree'
-  puts phrase
-end
+def any_phrase
