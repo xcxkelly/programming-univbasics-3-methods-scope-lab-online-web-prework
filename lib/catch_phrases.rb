@@ -1,5 +1,5 @@
 def Mario
-  status = 'Thank You Mario! But Our Princess Is In Another Castle!'
+  status = 'Thank You Mario! But Our Princess Is In Another Castle!'do
   puts phrase
   expect{Mario}.to output("It's-a me, Mario!\n").to_stdout
 end
