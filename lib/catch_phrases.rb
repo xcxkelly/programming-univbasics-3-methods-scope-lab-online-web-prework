@@ -5,9 +5,15 @@ end
 
 def toadstool
   status = 'Im toad!'
-  puts status
+  puts phrase
 end
 
 def jigglypuff
-  status = 'Im jigglypuff..jigggglypuff!'
+  status = 'jigggglypuff!'
   puts phrase
+end
+
+def tree 
+  status = 'Hello my name is Ima tree'
+  puts phrase
+end
