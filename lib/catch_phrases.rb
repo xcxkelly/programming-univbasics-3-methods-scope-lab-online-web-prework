@@ -9,7 +9,7 @@ def toadstool
 end
 
 def jigglypuff
-  status = 'jigggglypuff!'
+  status = 'jigglypuff!'
   puts phrase
 end
 
