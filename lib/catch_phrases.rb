@@ -13,7 +13,7 @@ def jigglypuff
   puts phrase
 end
 
-def tree 
+def ima tree 
   status = 'Hello my name is Ima tree'
   puts phrase
 end
