@@ -5,19 +5,19 @@ def Mario
 end
 
 def toadstool
-  status = 'Thank you mario! but our princess is in another castle!'
+  status = 'Thank you mario! but our princess is in another castle!'do
   puts phrase
   expect{Toadstool}. to output("Thank you mario! but our princess is in another castle!")
 end
 
 def Link
-  status = 'Its dangerous to go alone! take this.'
+  status = 'Its dangerous to go alone! take this.' do
   puts phrase
   expect{Link}. to output("Its dangerous to go alone! take this\n").to_stdout
 end
 
 def any_phrase
-  status = "Do a barrell roll!"
+  status = "Do a barrell roll!" do
   puts phrase
   expect{Any_phrase}. to output("Do a barrell roll!\n").to_stdout
 end
